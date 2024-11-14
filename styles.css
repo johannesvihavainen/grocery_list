@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: black;
+    background-color: #FFF;
+    width: 600px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.functionality {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input,
+button {
+    width: 100%;
+}
+
+.main-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+
+.clear-item {
+    margin-top: 50px;
+}
+
+button {
+    height: 50px;
+}
+
+input {
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.remove-item {
+    width: 25px;
+    height: 25px;
+}
+
+.edit-item {
+    width: 25px;
+    height: 25px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.add-item {
+    background-color: rgb(114, 194, 255);
+    border: none;
+}
+.add-item:hover {
+    background-color: rgb(54, 168, 255);
+}
+
+.clear-item {
+    color: red;
+}
+.clear-item:hover {
+    color: darkred;
+}
